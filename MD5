@@ -1,0 +1,14 @@
+4799c9d059c25e4f6c86d9db73f8f600 *DESCRIPTION
+e8a0fe312350dee091178816d71f19e9 *NAMESPACE
+6830156acc92b75187e8ed8dbe5e5060 *R/APML.R
+d733c689e8e231cdc5b4e0ab6dbc894c *R/datatrans.R
+0dca716d4dd02cd49ba652d06d9f00d9 *R/expl_rr.R
+f036f3a5058e7ce32ee9f23de16b3255 *R/outCI.R
+d681b58b43e8e580b1b83fe22bf8779d *R/splits_selection.R
+44a10c0bc7ae8d8a0eb85722f0175361 *R/uncertainty.R
+328dca5f6deb611a1716356f469b4b47 *man/APML.Rd
+6a059d1b29cc6c3f73f0a598c3f4282a *man/datatrans.Rd
+99b7d6687bc42ea548a9702283658d29 *man/expl_rr.Rd
+024405ed821ee447144442d9892bc1ea *man/outCI.Rd
+bedfdb98c2ab508b4aef18f088431bee *man/splits_selection.Rd
+81f7c443635412d050d40343bce9b292 *man/uncertainty.Rd
