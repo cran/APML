@@ -20,7 +20,7 @@ splits_selection <-
       }
       newData[,categories] <- lapply(newData[,categories],as.factor)
       set.seed(smote.seed)
-      newData <- SMOTE(f,data=newData, perc.over=table(newData[,1])[1]/table(newData[,1])[2]*100,perc.under=100)
+      newData <- smote(f,data=newData, perc.over=table(newData[,1])[1]/table(newData[,1])[2]*100,perc.under=100)
     }
     newData1 <- newData
     if(RAN_type=='binominal'){

@@ -49,7 +49,7 @@ The response variable should be the first column.
 \donttest{
 library(survival)
 library(h2o)
-library(DMwR)
+library(performanceEstimation)
 data("lung")
 attach(lung)
 data <- datatrans(lung,factor_dummy = 'dummy',rescale = TRUE)
