@@ -82,9 +82,8 @@ datatrans <- function(data,class_number=5,rescale=F,factor_dummy=NULL,ref=NULL, 
   
   if(!is.null(factor_dummy)){
     if(factor_dummy=='dummy'){
-      for (i in mnames) {
-        suppressWarnings(data <- dummy.data.frame(data, names = i, sep = "_"))
-      }}
+        suppressWarnings(data <- dummy_cols(data, select_columns = mnames))
+      }
     
     if(factor_dummy=='factor'){
       if(length(mcategories)==1){

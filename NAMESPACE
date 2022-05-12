@@ -1,4 +1,4 @@
-importFrom(dummies,dummy.data.frame)
+importFrom(fastDummies,dummy_cols)
 importFrom(h2o,as.h2o,as.factor,h2o.splitFrame,h2o.assign,h2o.gbm,h2o.randomForest,h2o.varimp,h2o.grid,h2o.getModel,h2o.performance,h2o.getGrid,h2o.metric)
 importFrom(performanceEstimation,smote)
 importFrom(dplyr,arrange)
